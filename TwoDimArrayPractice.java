@@ -201,7 +201,7 @@ min=intArray[i][column];
     // Write your code here:
 	   int count = 0;
 	   for( int i = 0; i<4; i++) {
-			for(int o = 0; o<20; o++) {
+			for(int o = 0; o<20; o++) { 
 if(intArray[i][o]==value) {
 	count++;
 	animate(i, o, count);
